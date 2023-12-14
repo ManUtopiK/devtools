@@ -1,0 +1,441 @@
+repo_name: ManUtopiK/devtools
+report_id: b624cc3b97ac0ad328cddb85ec83c57a
+repo_type: Public
+timestamp: '2023-12-14T18:38:12+00:00'
+requested_by: renovate[bot]
+provider: github
+branch: main
+detected_tools_count: 35
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: packages/devtools-wizard/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-04-07 14:00:48.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2022-06-07 19:52:19.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source: packages/devtools-kit/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-03-14 17:21:48.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source: packages/devtools/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-02-22 18:49:07.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2022-06-07 19:52:19.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-11 12:45:49.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: packages/devtools-wizard/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-04-07 14:00:48.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: packages/devtools/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-02-22 18:49:07.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: packages/devtools/src/runtime/auth/index.html
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-12-07 18:53:33.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Sirv
+  description: Revolutionary image hosting, optimization and delivery
+  website_url: https://sirv.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7329/yZ2B2IF1_normal.jpg
+  detection_source: packages/devtools/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-02-22 18:49:07.000000000 Z
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source: vercel.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-02-24 10:53:37.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-11 15:19:06.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.10.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-12-07 18:53:33.000000000 Z
+- name: "@types/ws"
+  description: TypeScript definitions for ws
+  package_url: https://www.npmjs.com/@types/ws
+  version: 8.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16711/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-12-07 18:53:33.000000000 Z
+- name: consola
+  description: Elegant Console Logger for Node.js and Browser
+  package_url: https://www.npmjs.com/consola
+  version: 3.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18067/image.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools-wizard/package.json
+  detection_source: packages/devtools-wizard/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-07-06 07:48:51.000000000 Z
+- name: conventional-changelog-cli
+  description: Generate a changelog from git metadata
+  package_url: https://www.npmjs.com/conventional-changelog-cli
+  version: 4.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16260/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-11-20 13:23:39.000000000 Z
+- name: diff
+  description: A javascript text diff implementation
+  package_url: https://www.npmjs.com/diff
+  version: 5.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools-wizard/package.json
+  detection_source: packages/devtools-wizard/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-12-07 18:53:33.000000000 Z
+- name: execa
+  description: Process execution for humans
+  package_url: https://www.npmjs.com/execa
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-07-31 11:12:09.000000000 Z
+- name: fast-glob
+  description: It's a very fast and efficient glob library for Node.js
+  package_url: https://www.npmjs.com/fast-glob
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17033/default_50357c490b205882dcfb608fd3c74b446186c21e.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools/package.json
+  detection_source: packages/devtools/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-11-09 20:30:35.000000000 Z
+- name: fuse.js
+  description: Lightweight fuzzy-search
+  package_url: https://www.npmjs.com/fuse.js
+  version: 7.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17405/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools/package.json
+  detection_source: packages/devtools/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-10-26 18:23:00.000000000 Z
+- name: gray-matter
+  description: Parse front-matter from a string or file
+  package_url: https://www.npmjs.com/gray-matter
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17773/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Arash
+  last_updated_on: 2023-06-05 14:01:00.000000000 Z
+- name: markdown-it
+  description: Markdown-it - modern pluggable markdown parser
+  package_url: https://www.npmjs.com/markdown-it
+  version: 13.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16277/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools/package.json
+  detection_source: packages/devtools/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-11-20 13:23:39.000000000 Z
+- name: nanoid
+  description: A tiny
+  package_url: https://www.npmjs.com/nanoid
+  version: 5.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools/package.json
+  detection_source: packages/devtools/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-12-07 18:53:33.000000000 Z
+- name: nuxt
+  description: A minimalistic framework for server-rendered Vue.js applications
+  package_url: https://www.npmjs.com/nuxt
+  version: 3.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17986/default_3c26cdeaec6eea61500856203ee8d97e81b93f76.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-11 15:19:06.000000000 Z
+- name: prompts
+  description: Lightweight, beautiful and user-friendly prompts
+  package_url: https://www.npmjs.com/prompts
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17250/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools-wizard/package.json
+  detection_source: packages/devtools-wizard/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-11-21 19:22:42.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 7.5.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools-wizard/package.json
+  detection_source: packages/devtools-wizard/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-07-09 11:43:05.000000000 Z
+- name: simple-git
+  description: Simple GIT interface for node.js
+  package_url: https://www.npmjs.com/simple-git
+  version: 3.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16567/default_d6ff16957d0b119d673d5ec0eb21b08d8d5008f4.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools/package.json
+  detection_source: packages/devtools/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-11 15:19:06.000000000 Z
+- name: ua-parser-js
+  description: Lightweight JavaScript-based user-agent string parser
+  package_url: https://www.npmjs.com/ua-parser-js
+  version: 1.0.37
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17510/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-11-09 20:30:35.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 4.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools-kit/package.json
+  detection_source: packages/devtools-kit/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-12-07 18:53:33.000000000 Z
+- name: which
+  description: Like which
+  package_url: https://www.npmjs.com/which
+  version: 3.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16482/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools/package.json
+  detection_source: packages/devtools/package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2023-05-03 14:50:43.000000000 Z
