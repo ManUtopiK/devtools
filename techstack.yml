@@ -1,11 +1,12 @@
 repo_name: ManUtopiK/devtools
 report_id: b624cc3b97ac0ad328cddb85ec83c57a
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T18:38:12+00:00'
+timestamp: '2024-01-05T08:22:03+00:00'
 requested_by: renovate[bot]
 provider: github
 branch: main
-detected_tools_count: 35
+detected_tools_count: 36
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ManUtopiK/devtools
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ManUtopiK/devtools
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ManUtopiK/devtools
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -46,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools-wizard/package.json
   detection_source: packages/devtools-wizard/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-04-07 14:00:48.000000000 Z
@@ -58,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2022-06-07 19:52:19.000000000 Z
@@ -70,6 +76,7 @@ tools:
   category: Libraries
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools-kit/package.json
   detection_source: packages/devtools-kit/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-03-14 17:21:48.000000000 Z
@@ -82,6 +89,7 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools/package.json
   detection_source: packages/devtools/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-02-22 18:49:07.000000000 Z
@@ -94,6 +102,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/package.json
   detection_source: package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2022-06-07 19:52:19.000000000 Z
@@ -105,6 +114,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ManUtopiK/devtools
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -114,6 +124,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/.github/workflows/ci.yml
   detection_source: ".github/workflows/ci.yml"
   last_updated_by: renovate[bot]
   last_updated_on: 2023-11-11 12:45:49.000000000 Z
@@ -125,6 +136,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools-wizard/package.json
   detection_source: packages/devtools-wizard/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-04-07 14:00:48.000000000 Z
@@ -136,6 +148,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools/package.json
   detection_source: packages/devtools/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-02-22 18:49:07.000000000 Z
@@ -145,6 +158,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools/src/runtime/auth/index.html
   detection_source: packages/devtools/src/runtime/auth/index.html
   last_updated_by: Anthony Fu
   last_updated_on: 2023-12-07 18:53:33.000000000 Z
@@ -157,6 +171,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ManUtopiK/devtools
   detection_source: Repo Metadata
 - name: Sirv
   description: Revolutionary image hosting, optimization and delivery
@@ -164,6 +179,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7329/yZ2B2IF1_normal.jpg
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/packages/devtools/package.json
   detection_source: packages/devtools/package.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-02-22 18:49:07.000000000 Z
@@ -176,6 +192,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/vercel.json
   detection_source: vercel.json
   last_updated_by: Anthony Fu
   last_updated_on: 2023-02-24 10:53:37.000000000 Z
@@ -184,6 +201,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-12-11 15:19:06.000000000 Z
@@ -313,6 +331,20 @@ tools:
   detection_source: package.json
   last_updated_by: Arash
   last_updated_on: 2023-06-05 14:01:00.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 15.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/ManUtopiK/devtools/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-11 15:19:06.000000000 Z
 - name: markdown-it
   description: Markdown-it - modern pluggable markdown parser
   package_url: https://www.npmjs.com/markdown-it
